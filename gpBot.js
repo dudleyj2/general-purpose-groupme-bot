@@ -231,7 +231,11 @@ app.post('/groupme', function (req, res) {
 			if (args[index] == "rediculous"){
 				  postToGroup("*ridiculous");
 				  break;
-		    }
+			}
+			if (args[index] == "irregardless"){
+				  postToGroup("*regardless");
+				  break;
+			}
 	    }
   });
 
